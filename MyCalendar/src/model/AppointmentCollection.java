@@ -1,5 +1,8 @@
 package model;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class AppointmentCollection {
     private static final int DEFAULT_PHYSICAL_SIZE = 10;
     private static final int DEFAULT_GROWTH_FACTOR = 2;
@@ -70,4 +73,5 @@ public class AppointmentCollection {
 
         return -1;
     }
+
 }
